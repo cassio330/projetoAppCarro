@@ -1,9 +1,45 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Modelos de Subaru
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+  <!-- List of Text Items -->
+<ion-list>
+  <ion-item>
+      <ion-img [src]="item.src"></ion-img>
+    <ion-label>Impreza</ion-label>
+    <ion-buttons>
+      <button ion-button (click)="goAnOtherPage()">Conheça este veículo </button>
+    </ion-buttons>
+  </ion-item>
+  <ion-item>
+    <ion-label>Forester</ion-label>
+    <ion-buttons>
+      <button ion-button (click)="goAnOtherPage()">Conheça este veículo </button>
+    </ion-buttons>
+  </ion-item>
+  <ion-item>
+    <ion-label>Legacy</ion-label>
+    <ion-buttons>
+      <button ion-button (click)="goAnOtherPage()">Conheça este veículo </button>
+    </ion-buttons>
+  </ion-item>
+  <ion-item>
+    <ion-label>WRX STI</ion-label>
+    <ion-buttons>
+      <button ion-button (click)="goAnOtherPage()">Conheça este veículo </button>
+    </ion-buttons>
+  </ion-item>
+  <ion-item>
+    <ion-label>Outback</ion-label>
+    <ion-buttons>
+      <button ion-button (click)="goAnOtherPage()">Conheça este veículo </button>
+    </ion-buttons>
+  </ion-item>
+</ion-list>
+</ion-content>
