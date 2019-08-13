@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  teste = "Início"
+  description = "A tradição, a performance e a durabilidade de um Subaru que você já conheceu ou ouviu falar. Conheça mais sobre a história desta marca com um legado de mais de 60 anos em alta tecnologia mecânica. "
+
+  
   constructor() {}
 
 }
